@@ -7,7 +7,7 @@
           <mat-icon>music_note</mat-icon>
           <div>Audio Player</div>
       </div>
-      <mat-list color="primary">
+      <mat-list color="primary" style="height: 190px;overflow: auto;">
         <h3 mat-subheader>Songs</h3>
         <mat-list-item *ngFor="let file of files; let i = index" (click)="openFile(file, i)">
           <mat-icon color="primary" mat-list-icon>music_note</mat-icon>
